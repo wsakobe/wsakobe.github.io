@@ -48,7 +48,45 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
+
+            <tr onmouseout="trackvla_stop()" onmouseover="trackvla_start()" >
+              <td style="padding:20px;width:30%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='trackvla_image'>
+                  <img src="images/trackvla/trackvla.gif" width="220" height="165">
+                  </div>
+                  <img src='images/trackvla/trackvla.png' width="220" height="165">
+                </div>
+                <script type="text/javascript">
+                  function trackvla_start() {
+                    document.getElementById('trackvla_image').style.opacity = "1";
+                  }
+                  function trackvla_stop() {
+                    document.getElementById('trackvla_image').style.opacity = "0";
+                  }
+                  trackvla_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:70%;vertical-align:middle">
+                <a href="https://wsakobe.github.io/TrackVLA-web/">
+                <span class="papertitle">TrackVLA: Embodied Visual Tracking in the Wild</span>
+                </a>
+                <br>
+                <strong>Shaoan Wang</strong>*, Jiazhao Zhang*, Minghan Li, Jiahang Liu, Anqi Li, Kui Wu, Fangwei Zhong, Junzhi Yu, Zhizheng Zhang<sup>†</sup>, He Wang<sup>†</sup> 
+                <br>
+                <em><b>Arxiv</b></em>
+                <br>
+                <a href="https://arxiv.org/pdf/2412.06224">[PDF]</a>
+                <a href="https://wsakobe.github.io/TrackVLA-web/">[Project page]</a>
+                <a href="https://github.com/wsakobe/TrackVLA">[Code]</a>
+                <a href="https://github.com/wsakobe/EVT-Bench">[Benchmark]</a>
+                <p></p>
+                <p>
+                  We present TrackVLA, a vision-language-action model capable of simultaneous object recognition and visual tracking, enabling zero-shot deployment in real-world scenarios.
+                </p>
+              </td>
+            </tr>
+
             <tr onmouseout="uni_navid_stop()" onmouseover="uni_navid_start()" >
               <td style="padding:20px;width:30%;vertical-align:middle">
                 <div class="one">
