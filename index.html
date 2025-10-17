@@ -22,9 +22,9 @@
                 <p class="name" style="text-align: center;">
                   Shaoan Wang
                 </p>
-                <p>I'm a fourth-year PhD student at College of Engineering at Peking University, where I have been advised by Prof. <a href="https://www.coe.pku.edu.cn/teaching/manufacturing/9993.html">Junzhi Yu</a>. Previously, I'm a research intern at an embodied AI startup <a href="https://www.galbot.com/">GALBOT</a>, supervised by Prof. <a href="https://hughw19.github.io">He Wang</a> and Dr. <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en">Zhizheng Zhang</a>. Before that, I completed my Bachelor's in Robotics at Beijing Institute of Technology in 2021, supervised by Prof. <a href="https://smen.bit.edu.cn/szdw/szml/znjqryjs/qb08/4ada85fc3d4e4ebd8d84480267e36754.htm#">Huaping Wang</a>.
+                <p>I'm a fifth-year PhD student at School of Advanced Manufacturing and Robotics, Peking University, where I have been advised by Prof. <a href="https://www.coe.pku.edu.cn/teaching/manufacturing/9993.html">Junzhi Yu</a>. Currently, I'm a research intern at ByteDance Seed Robotics. Previously, I'm a research intern at an embodied AI startup <a href="https://www.galbot.com/">GALBOT</a>, supervised by Prof. <a href="https://hughw19.github.io">He Wang</a> and Dr. <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en">Zhizheng Zhang</a>. Before that, I completed my Bachelor's in Robotics at Beijing Institute of Technology in 2021, supervised by Prof. <a href="https://smen.bit.edu.cn/szdw/szml/znjqryjs/qb08/4ada85fc3d4e4ebd8d84480267e36754.htm#">Huaping Wang</a>.
                 </p>
-                <p>Nowadays, I'm interested in embodied AI, with a specific focus on visual-language navigation and multimodal robot perception. In my previous work, I concentrated on achieving high‑precision pose estimation for curved surfaces by leveraging visual fiducial markers.
+                <p>Nowadays, I'm interested in embodied AI, with a specific focus on visual-language navigation and multimodal robot perception and planning. In my previous work, I concentrated on achieving high‑precision pose estimation for curved surfaces by leveraging visual fiducial markers.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:wangshaoan@stu.pku.edu.cn">Email</a> &nbsp;/&nbsp;
@@ -48,6 +48,84 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="navfom_stop()" onmouseover="navfom_start()" >
+              <td style="padding:20px;width:30%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='navfom_image'>
+                  <img src="images/navfom/navfom.gif" width="230" height="165">
+                  </div>
+                  <img src='images/navfom/navfom.png' width="230" height="165">
+                </div>
+                <script type="text/javascript">
+                  function navfom_start() {
+                    document.getElementById('navfom_image').style.opacity = "1";
+                  }
+                  function navfom_stop() {
+                    document.getElementById('navfom_image').style.opacity = "0";
+                  }
+                  navfom_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:70%;vertical-align:middle">
+                <a href="https://pku-epic.github.io/NavFoM-Web/">
+                <papertitle>Embodied Navigation Foundation Model</papertitle>
+                </a>
+                <br>
+                  Jiazhao Zhang*, Anqi Li*, Yunpeng Qi*, Minghan Li*, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang†, He Wang†
+                <br>
+                <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+                <br>
+                <a href="https://arxiv.org/abs/2509.12129">Paper</a>
+                /
+                <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+                <!-- / -->
+                <a href="https://pku-epic.github.io/NavFoM-Web/">Project page</a>
+                <p></p>
+                <p>
+                  We introduce a cross-embodiment and cross-task Navigation Foundation Model (NavFoM), trained on eight million navigation samples that encompass quadrupeds, drones, wheeled robots, and vehicles, and spanning diverse tasks such as vision-and-language navigation, object searching, target tracking, and autonomous driving.
+                </p>
+              </td>
+            </tr>
+  
+            <tr onmouseout="trackvla_plus_plus_stop()" onmouseover="trackvla_plus_plus_start()" >
+              <td style="padding:20px;width:30%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='trackvla_plus_plus_image'>
+                  <img src="images/trackvla++/trackvla++.gif" width="230" height="165">
+                  </div>
+                  <img src='images/trackvla++/trackvla++.png' width="230" height="165">
+                </div>
+                <script type="text/javascript">
+                  function trackvla_plus_plus_start() {
+                    document.getElementById('trackvla_plus_plus_image').style.opacity = "1";
+                  }
+                  function trackvla_plus_plus_stop() {
+                    document.getElementById('trackvla_plus_plus_image').style.opacity = "0";
+                  }
+                  trackvla_plus_plus_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:70%;vertical-align:middle">
+                <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">
+                <papertitle>TrackVLA++: Unleashing Reasoning and Memory Capabilities in VLA Models for Embodied Visual Tracking</papertitle>
+                </a>
+                <br>
+                  Jiahang Liu*, Yunpeng Qi*, Jiazhao Zhang*, Minghan Li, Shaoan Wang, Kui Wu, Hanjing Ye, Hong Zhang, Zhibo Chen, Fangwei Zhong, Zhizheng Zhang†, He Wang†
+                <br>
+                <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+                <br>
+                <a href="https://arxiv.org/pdf/2510.07134">Paper</a>
+                /
+                <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+                <!-- / -->
+                <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">Project page</a>
+                <p></p>
+                <p>
+                  TrackVLA++ is a novel Vision-Language-Action model that incorporates spatial reasoning and target identification memory, enabling superior performance in both long-horizon and highly crowded tracking scenarios.
+                </p>
+              </td>
+            </tr>
 
             <tr onmouseout="trackvla_stop()" onmouseover="trackvla_start()" >
               <td style="padding:20px;width:30%;vertical-align:middle">
