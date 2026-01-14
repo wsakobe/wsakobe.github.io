@@ -48,6 +48,45 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+            <tr onmouseout="vlingnav_stop()" onmouseover="vlingnav_start()" >
+              <td style="padding:20px;width:30%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='vlingnav_image'>
+                  <img src="images/vlingnav/vlingnav.gif" width="230" height="135">
+                  </div>
+                  <img src='images/vlingnav/vlingnav.png' width="230" height="135">
+                </div>
+                <script type="text/javascript">
+                  function vlingnav_start() {
+                    document.getElementById('vlingnav_image').style.opacity = "1";
+                  }
+                  function vlingnav_stop() {
+                    document.getElementById('vlingnav_image').style.opacity = "0";
+                  }
+                  vlingnav_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:70%;vertical-align:middle">
+                <a href="https://wsakobe.github.io/VLingNav-web/">
+                <papertitle>VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory</papertitle>
+                </a>
+                <br>
+                Shaoan Wang*, Yuanfei Luo*, Xingyu Chen†, Aocheng Luo, Dongyue Li, Chang Liu, Sheng Chen‡, Yangang Zhang, Junzhi Yu†
+                <br>
+                <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+                <br>
+                <a href="https://arxiv.org/abs/2601.08665">Paper</a>
+                /
+                <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+                <!-- / -->
+                <a href="https://wsakobe.github.io/VLingNav-web/">Project page</a>
+                <p></p>
+                <p>
+                  VLingNav is a VLA model for embodied navigation that combines an adaptive chain-of-thought mechanism (AdaCoT) to trigger explicit reasoning only when needed with a visual-assisted linguistic memory module (VLingMem) to build persistent cross-modal semantic memory for long-horizon navigation.
+                </p>
+              </td>
+            </tr>
 
             <tr onmouseout="navfom_stop()" onmouseover="navfom_start()" >
               <td style="padding:20px;width:30%;vertical-align:middle">
