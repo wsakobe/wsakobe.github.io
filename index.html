@@ -13,12 +13,22 @@
   </head>
 
   <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-title">Shaoan Wang</div>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+        </nav>
+      </div>
+    </header>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <td id="about" style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
                   Shaoan Wang
                 </p>
@@ -41,7 +51,20 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
+                <td id="news" style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>News</h2>
+                  <ul class="news-list">
+                    <li><span class="news-date">2026.02</span>NavFoM has been accepted to ICLR 2026!</li>
+                    <li><span class="news-date">2026.02</span>TrackVLA++ has been accepted to ICRA 2026!</li>
+                    <li><span class="news-date">2025.08</span>TrackVLA has been accepted to CoRL 2025!</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td id="publications" style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Publications (Selected)</h2>
                 
               </td>
@@ -72,7 +95,7 @@
                 <papertitle>VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory</papertitle>
                 </a>
                 <br>
-                Shaoan Wang*, Yuanfei Luo*, Xingyu Chen†, Aocheng Luo, Dongyue Li, Chang Liu, Sheng Chen‡, Yangang Zhang, Junzhi Yu†
+                <strong>Shaoan Wang</strong>*, Yuanfei Luo*, Xingyu Chen†, Aocheng Luo, Dongyue Li, Chang Liu, Sheng Chen‡, Yangang Zhang, Junzhi Yu†
                 <br>
                 <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
                 <br>
@@ -322,16 +345,6 @@
 
           </tbody></table>
 
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  The website template was adapted from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
-                </p>
-              </td>
-            </tr>
           </tbody></table>
         </td>
       </tr>
